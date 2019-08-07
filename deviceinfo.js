@@ -204,6 +204,10 @@ const devicesWithNotch = [
     model: 'U18',
   },
   {
+    brand: 'samsung',
+    model: 'SM-G970U',
+  },
+  {
     brand: 'Sharp',
     model: 'Aquos S3',
   },
