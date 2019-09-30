@@ -29,6 +29,18 @@ if (!RNDeviceInfo) {
 const devicesWithNotch = [
   {
     brand: 'Apple',
+    model: 'iPhone 11',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 11 Pro',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 11 Pro Max',
+  },
+  {
+    brand: 'Apple',
     model: 'iPhone X',
   },
   {
@@ -272,6 +284,7 @@ const deviceNamesByCode = {
   'iPod4,1': 'iPod Touch', // (Fourth Generation)
   'iPod5,1': 'iPod Touch', // (Fifth Generation)
   'iPod7,1': 'iPod Touch', // (Sixth Generation)
+  'iPod9,1': 'iPod Touch', // (Seventh Generation)
   'iPhone1,1': 'iPhone', // (Original)
   'iPhone1,2': 'iPhone 3G', // (3G)
   'iPhone2,1': 'iPhone 3GS', // (3GS)
@@ -318,6 +331,9 @@ const deviceNamesByCode = {
   'iPhone11,4': 'iPhone XS Max', // (model A1921, A2103)
   'iPhone11,6': 'iPhone XS Max', // (model A2104)
   'iPhone11,8': 'iPhone XR', // (model A1882, A1719, A2105)
+  'iPhone12,1': 'iPhone 11',
+  'iPhone12,3': 'iPhone 11 Pro',
+  'iPhone12,5': 'iPhone 11 Pro Max',
   'iPad4,1': 'iPad Air', // 5th Generation iPad (iPad Air) - Wifi
   'iPad4,2': 'iPad Air', // 5th Generation iPad (iPad Air) - Cellular
   'iPad4,3': 'iPad Air', // 5th Generation iPad (iPad Air)
@@ -335,6 +351,8 @@ const deviceNamesByCode = {
   'iPad6,4': 'iPad Pro 9.7-inch', // iPad Pro 9.7-inch
   'iPad6,7': 'iPad Pro 12.9-inch', // iPad Pro 12.9-inch
   'iPad6,8': 'iPad Pro 12.9-inch', // iPad Pro 12.9-inch
+  'iPad6,11': 'iPad (5th generation)', // Apple iPad 9.7 inch (5th generation) - WiFi
+  'iPad6,12': 'iPad (5th generation)', // Apple iPad 9.7 inch (5th generation) - WiFi + cellular
   'iPad7,1': 'iPad Pro 12.9-inch', // 2nd Generation iPad Pro 12.5-inch - Wifi
   'iPad7,2': 'iPad Pro 12.9-inch', // 2nd Generation iPad Pro 12.5-inch - Cellular
   'iPad7,3': 'iPad Pro 10.5-inch', // iPad Pro 10.5-inch - Wifi
@@ -349,6 +367,10 @@ const deviceNamesByCode = {
   'iPad8,6': 'iPad Pro 12.9-inch (3rd generation)', // iPad Pro 12.9 inch (3rd generation) - 1TB - Wifi
   'iPad8,7': 'iPad Pro 12.9-inch (3rd generation)', // iPad Pro 12.9 inch (3rd generation) - Wifi + cellular
   'iPad8,8': 'iPad Pro 12.9-inch (3rd generation)', // iPad Pro 12.9 inch (3rd generation) - 1TB - Wifi + cellular
+  'iPad11,1': 'iPad Mini 5', // (5th Generation iPad Mini)
+  'iPad11,2': 'iPad Mini 5', // (5th Generation iPad Mini)
+  'iPad11,3': 'iPad Air (3rd generation)',
+  'iPad11,4': 'iPad Air (3rd generation)',
   'AppleTV2,1': 'Apple TV', // Apple TV (2nd Generation)
   'AppleTV3,1': 'Apple TV', // Apple TV (3rd Generation)
   'AppleTV3,2': 'Apple TV', // Apple TV (3rd Generation - Rev A)
